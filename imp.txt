@@ -1,0 +1,13 @@
+ Medication Reminders:
+
+Data Storage: You'll need a way to store medication information (name, dosage, schedule) for each user. This could be a simple dictionary or a database depending on your needs.
+Reminder System:
+Use a library like schedule (Python library) to schedule reminder messages based on the user's medication schedule.
+The get_response function can check if there are any upcoming reminders and send them to the user if needed.
+2. Information Retrieval:
+
+Data Source: Decide on a reliable source for medication information (e.g., an API from a medical database).
+Information Retrieval Function:
+Create a function that takes the medication name as input and retrieves information from the chosen source.
+This function can leverage libraries like requests (Python library) to make API calls.
+The retrieved information can then be formatted into a clear and concise response for the user.x
